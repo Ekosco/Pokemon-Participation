@@ -1,0 +1,17 @@
+﻿<Window x:Class="JSON_Pokemon.PokemonInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Pokemon"
+        mc:Ignorable="d"
+        Title="PokemonInfoWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblHeight" Content="" HorizontalAlignment="Left" Height="42" Margin="41,60,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="lblWeight" Content="" HorizontalAlignment="Left" Height="42" Margin="41,135,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="lblTitle" Content="" HorizontalAlignment="Left" Height="42" Margin="504,18,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button x:Name="SpriteBtn" Content="Dance" HorizontalAlignment="Left" Height="80" Margin="339,297,0,0" VerticalAlignment="Top" Width="187" Click="SpriteBtn_Click"/>
+        <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="199" Margin="296,81,0,0" VerticalAlignment="Top" Width="476"/>
+
+    </Grid>
+</Window>
